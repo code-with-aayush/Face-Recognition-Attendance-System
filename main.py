@@ -54,6 +54,7 @@ print('Encoding Complete')
 
 cap = cv2.VideoCapture(1) #change it according to your system
 # cap = cv2.VideoCapture(0) #change it according to your system
+#new line
 
 while True:
     success, img = cap.read()
