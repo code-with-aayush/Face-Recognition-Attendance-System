@@ -53,7 +53,7 @@ encodeListKnown = findEncodings(images)
 print('Encoding Complete')
 
 cap = cv2.VideoCapture(1) #change it according to your system
-# cap = cv2.VideoCapture(0) #this is your camera number
+# cap = cv2.VideoCapture(0) #change it according to your system
 
 while True:
     success, img = cap.read()
